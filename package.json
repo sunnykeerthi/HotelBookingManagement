@@ -28,8 +28,8 @@
     "@babel/runtime": "7.13.8"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider --max_old_space_size=2560 start",
-    "build": "react-scripts --openssl-legacy-provider --max_old_space_size=2560 build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
